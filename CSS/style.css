@@ -1,0 +1,129 @@
+body {
+  background-color: #282a35;
+}
+.form-login {
+  min-height: 300px;
+}
+
+.img1 img {
+  margin-top: 80px;
+  margin-right: 30px;
+}
+@media (max-width: 768px) {
+  .img1 {
+    display: none;
+  }
+}
+
+.fa-check {
+  background-color: #00c853;
+  font-size: 9px;
+}
+.signup {
+  font-weight: 600;
+  font-size: 0.94rem;
+}
+.signup a {
+  color: #05a56b;
+  text-decoration: none;
+  margin-left: 4px;
+}
+a {
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #000;
+}
+.facebook .fa-facebook-f {
+  color: #0080ff;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+.gitgub .fa-github {
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.footer {
+  background-image: url("../Images/footer.211c30d0443643f96743.png");
+  min-height: 400px;
+  background-position: right;
+  background-size: cover;
+}
+.footer-content,
+.end,
+.end a {
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 400;
+}
+.end a {
+  color: white;
+  text-decoration: underline;
+  transition: 0.3s;
+}
+.end a:hover {
+  color: #f4ea9d;
+}
+.social-icon a i {
+  color: white;
+  font-size: 24px;
+  font-weight: 400;
+  text-align: start;
+}
+.social-icon a {
+  margin-left: 8px;
+}
+.w3 img {
+  width: 100%;
+}
+.f-content {
+  padding-top: 60px;
+}
+.help {
+  position: fixed;
+  bottom: 24px;
+  right: 30px;
+  font-weight: 600;
+  background-color: #04aa6d;
+  border: none;
+  padding: 12px 24px;
+}
+.help i {
+  margin-right: 8px;
+  font-size: 18px;
+}
+
+.form input {
+  height: 45px;
+}
+.form input:focus {
+  border: #04aa6d 2px solid;
+  box-shadow: none;
+}
+.login {
+  font-weight: 600;
+  background-color: #04aa6d;
+}
+.forget {
+  font-weight: 600;
+  font-size: 15px;
+  border: 1px solid #d4d1d3;
+  background-color: white;
+
+  border-radius: 8px;
+}
+.close a i {
+  font-size: 24px;
+}
+
+@media (max-width: 768px) {
+  .footer {
+    min-height: 500px;
+    background-position: center;
+  }
+  .res {
+    flex-direction: column-reverse;
+    margin: auto;
+  }
+}
